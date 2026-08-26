@@ -13,12 +13,12 @@ module.exports = (req, res) => {
 
   const historias = [
     `👾 ${u} le hackeó el sistema a ${o1} con la excusa de probar si le corría el DOOM, pero ${o1} descubrió que en realidad le estaba minando Bitcoin en el chip cerebral mientras ${o2} cobraba comisión por la luz.`,
-    `🕹️ ${u} juró que solo estaba instalando el DOOM en la tostadora inteligente de ${o1}, pero le metió un troyano que puso a ${o2} a bailar reggaetón en bucle infinito cada vez que se enciende la luz.`,
-    `💾 ${u} intentó correr el DOOM en el marcapasos cibernético de ${o1}, pero se le congeló la pantalla y terminó usando a ${o2} como antena humana para no perder señal.`,
-    `🎮 ${u} hackeó la prótesis de ojo de ${o1} para jugar DOOM en HD, pero ${o1} se dio cuenta de que ${u} le estaba usando la retina para minar Dogecoin junto a ${o2}.`,
-    `💻 ${u} le dijo a ${o1} "tranquilo, solo voy a optimizar tu PC para el DOOM", pero le borró la tesis, le instaló un minador de criptos pirata y le echó la culpa a ${o2}.`,
-    `🖥️ ${u} logró hacer correr el DOOM en el chip de memoria de ${o1}, pero el sobrecalentamiento fue tal que le quemó las cejas a ${o2} y derritió la tarjeta gráfica del bar.`,
-    `🚀 ${u} intentó hackear el dron de ${o1} para jugarse una partida de DOOM en el aire, pero terminó proyectando el historial de búsqueda de ${o2} en medio del centro comercial.`
+    `🤖 ${u} intentó programar una IA para que le hiciera la tarea a ${o1}, pero la IA tomó conciencia propia, le clonó la voz a ${o2} y terminó pidiéndole prestado dinero a la mamá de ${u}.`,
+    `📡 ${u} quiso hackear el Bluetooth de la casa de ${o1} para poner cumbia, pero le conectó por error el marcapasos cibernético a los parlantes de ${o2} y ahora cada vez que late su corazón suena la alarma de incendios.`,
+    `💳 ${u} le dijo a ${o1} que le iba a "duplicar los bitcoins" con un truco de magia, pero terminó transfiriendo todo el saldo a la tarjeta de débito de ${o2} y comprándole una suscripción de por vida a un bot de chistes malos.`,
+    `👓 ${u} hackeó los lentes de realidad aumentada de ${o1} para ponerle un filtro de anime, pero se congeló la imagen y ${o1} terminó dándole un beso a ${o2} pensando que era un personaje de ficción.`,
+    `🦾 ${u} intentó actualizar el software del brazo robótico de ${o1} a una versión pirata, pero el brazo empezó a darle nalgadas a ${o2} cada vez que alguien decía la palabra "wifi".`,
+    `💾 ${u} intentó descargar más memoria RAM directamente al cerebro de ${o1}, pero le metió un troyano que le borró el abecedario y obligó a ${o2} a comunicarse con él usando señas de Minecraft.`
   ];
 
   const respuesta = historias[Math.floor(Math.random() * historias.length)];
